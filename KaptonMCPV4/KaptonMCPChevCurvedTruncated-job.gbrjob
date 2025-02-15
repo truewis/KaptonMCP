@@ -1,0 +1,81 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.3"
+    },
+    "CreationDate": "2025-02-15T08:02:21-06:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "KaptonMCPChevCurvedTruncated",
+      "GUID": "4b617074-6f6e-44d4-9350-436865764375",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 100.05,
+      "Y": 25.05
+    },
+    "LayerNumber": 2,
+    "BoardThickness": 0.124,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.15
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "KaptonMCPChevCurvedTruncated-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "KaptonMCPChevCurvedTruncated-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "KaptonMCPChevCurvedTruncated-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "KaptonMCPChevCurvedTruncated-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "SolderMask",
+      "Color": "R128G128B128",
+      "Thickness": 0.025,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.012,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R205G130B0",
+      "Thickness": 0.075,
+      "Material": "Polyimide",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.012,
+      "Name": "B.Cu"
+    }
+  ]
+}
