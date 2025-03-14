@@ -92,7 +92,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "KaptonMCPV3/")
+			(outputdirectory "KaptonMCPV4/")
 		)
 	)
 	(net 0 "")
@@ -109653,6 +109653,17 @@
 		(layer "F.Mask")
 		(uuid "c5778b2d-9958-4322-87f8-b6e53383bc28")
 	)
+	(gr_rect
+		(start 106.3 87.1)
+		(end 107.45 97.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "c664e389-2b60-45b5-a092-59ac5d77dbee")
+	)
 	(gr_poly
 		(pts
 			(xy 148.75 80) (xy 149.75 80) (xy 151.75 92) (xy 150.75 92)
@@ -110214,7 +110225,7 @@
 	)
 	(gr_rect
 		(start 105.35 80)
-		(end 107.3 105)
+		(end 106.5 105)
 		(stroke
 			(width 0)
 			(type solid)
